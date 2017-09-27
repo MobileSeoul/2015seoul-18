@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andexert.library.RippleView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/more"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_toLeftOf="@+id/more2"
+    android:layout_margin="5dp"
+    rv_centered="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="24sp"
+    android:gravity="center"
+    android:layout_marginTop="16dp"
+    android:text="식사시간에 비례한 건강상태"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="64dp"></View>
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="36dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="포만감"
+            android:id="@+id/chart_button1"
+            android:background="@color/primary"/>
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="36dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="면역력"
+            android:id="@+id/chart_button2"
+            android:background="@color/primary"/>
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="36dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="소화촉진"
+            android:id="@+id/chart_button3"
+            android:background="@color/primary"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="36dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="기억력"
+            android:id="@+id/chart_button4"
+            android:background="@color/primary"/>
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="36dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="인슐린"
+            android:id="@+id/chart_button5"
+            android:background="@color/primary"/>
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="36dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="BMI지수"
+            android:id="@+id/chart_button6"
+            android:background="@color/primary"/>
+    </LinearLayout>
+
+</LinearLayout>
+</com.andexert.library.RippleView>

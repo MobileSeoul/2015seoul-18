@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eatinghabit.sehyunpark.eatinghabits" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <uses-permission android:name="android.permission.INTERNET"/>
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+        <uses-permission android:name = "android.permission.VIBRATE" />
+
+        <service android:name=".SensorService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="sensorService"></action>
+            </intent-filter>
+        </service>
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="sensorService"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PedometerActivity"
+            android:label="PedometerActivity">
+        </activity>
+
+        <activity android:name=".AlarmActivity"
+            android:label="AlarmActivity"
+            >
+        </activity>
+
+        <activity android:name=".EatingTimeActivity"
+            android:label="EatingTimeActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".extra.ListViewMultiChartActivity"
+            android:label="ListViewMultiChartActivity"/>
+
+
+        <receiver android:name=".AlarmRecever">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".PendingRecever">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED2"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".DeviceBootReceiver"
+            android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED2"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".provider.WidgetProvider"
+            android:label="식사시간 - 밥힘" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_provider_basic" />
+        </receiver>
+
+        <activity
+            android:name=".AlarmIntro"
+            android:label="AlarmIntro"
+            />
+
+        <activity
+            android:name=".PedometerCloseActivity"
+            android:label="PedometerCloseActivity"
+            />
+
+        <activity
+            android:name=".FoodInnerActivity"
+            android:label="FoodInnerActivity"
+            />
+    </application>
+
+</manifest>

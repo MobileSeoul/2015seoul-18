@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eatinghabit.sehyunpark.eatinghabits.fragment"
+
+    android:fitsSystemWindows="true">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fl_alarm">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/alarmlage3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시간을 설정해 주세요!"
+        android:textColor="@color/primary_text"
+        android:id="@+id/alarm_text"
+        android:textSize="26sp"
+        android:layout_marginTop="370dp"
+        android:gravity="center"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fabMapMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="64dp"
+        android:layout_marginRight="8dp"
+        fab:menu_fab_size="normal"
+        fab:menu_colorNormal="@color/primary"
+        fab:menu_colorPressed="@color/colorPrimaryDark"
+        fab:menu_colorRipple="@color/colorAccent"
+        fab:menu_icon="@drawable/alarm"
+        >
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_item1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/plus"
+            fab:fab_size="mini"
+            fab:fab_label="알람 추가"
+            style="@style/MenuButtonsSmall"
+            />
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_item2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/minus"
+            fab:fab_size="mini"
+            fab:fab_label="알람 제거"
+            style="@style/MenuButtonsSmall"
+            />
+
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+    </FrameLayout>
+
+
+</FrameLayout>

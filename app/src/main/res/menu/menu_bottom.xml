@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ListViewMultiChartActivity">
+
+    <item
+        android:id="@+id/helth1"
+        android:title="포만감"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/helth2"
+        android:title="뇌활성"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/helth3"
+        android:title="소화촉진"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/helth4"
+        android:title="기억력"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/helth5"
+        android:title="인슐린"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/helth6"
+        android:title="BMI"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+</menu>

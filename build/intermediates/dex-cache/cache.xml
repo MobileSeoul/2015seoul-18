@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.daimajia.androidanimations\library\1.1.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8cec50fc9cc847bad0d6ed7d93814f4b34744521">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-b6bf7a36487ba6ab0b8036bbee1ab8a5c57cbfb4.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.mikepenz\materialdrawer\3.1.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c9b5ab5d31472e2edec0b741355aa2fc18d16a0c">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-4d1c20ff2e73a79d193e45a321477a7cd6dba67e.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\internal_impl-23.1.0-172d4fd161f1f36bb5ffc7b365ae02d4ec1a263b.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.5.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="cd4a2b0df827bebc39c620c3df0379655adabd8c">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-1b44808140eaadb9691e0315701012d0abb5210a.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-511731507f3357cc33a7226ebdb5caf6ac0939c9.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.daimajia.easing\library\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d7e947f993bf32a00fcb3078cdda8bb11c930afb">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-86e4cbdc21c9366170ee6cb68abf0376bbb2c646.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.github.traex.rippleeffect\library\1.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ee17feb34ce104bc17d1a1e64346d7f779ebb066">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-44339fd5ec3cd56ba1971300dcbe07a6210499cb.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.wdullaer\materialdatetimepicker\1.4.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="10f66556026320088327e814108d0a8e80111130">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-1b8740acc958850b43cc519da3e5238ba38b3d1b.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.5.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="28df9804d10dcce9235dde6dc95e5ed9eb21f0f0">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-19970f2e9adf30cfc5660a0511c8a9ff96d8857d.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.code-troopers.betterpickers\library\2.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="55950c438625d59503477795fd602afa9e1b86b6">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-cd12ed425d6ad3a676e517cb2aa2f392f93d8a30.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.5.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2c48f4fa9decc24778e885a147169988d4358b8e">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-1d2fa201b78476aff9c38186da894c7bf21fb097.jar" />
+    </item>
+    <item
+        jar="C:\Users\sehyunpark\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.18\38da306aafee11459cd935a01d2c92a98dc670a4\library-1.0.18.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="38da306aafee11459cd935a01d2c92a98dc670a4">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\library-1.0.18-311d7336e9ad2381c34966a8187ecab3e6d22959.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.github.fenjuly\ArrowDownloadButton\9e15b85e8a\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2c7bbf16900b5f246a25ce89a794f5a126eb7bd2">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-71df40daf632f696e5ac5eb93b0dd9afab2c8043.jar" />
+    </item>
+    <item
+        jar="C:\Users\sehyunpark\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v2.1.5\34b9f39e5343d39e205fb7617e734601dc4868e7\MPAndroidChart-v2.1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="34b9f39e5343d39e205fb7617e734601dc4868e7">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\MPAndroidChart-v2.1.5-15551ad7901eea5162662a447937e49ce6587049.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.github.flavienlaurent.discrollview\library\0.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4882ae79d1b017eb023db1890a8a4fd5c2862795">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-a459e8342bc208aa0e34c21673371d36f2fbe09b.jar" />
+    </item>
+    <item
+        jar="C:\Users\sehyunpark\android-sdks\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\support-annotations-23.1.0-8875a91f72902c8e4632bf02df98630fa095f63e.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\me.zhanghai.android.materialprogressbar\library\1.1.4\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2a24cba08e1d865a79e61335f5a1bd64d520106d">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-a4797493deae7be0786c459b281c8443d150371e.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.mikepenz\iconics\1.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="720dcbcd8744b145da58d835d7e4dbc546886df7">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-3e7ce8aa3dbdbc5d750b1509e7d3d285e6174675.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.5.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d2fc5593ddd0c2ae29f4623e13e452c2d88bcad0">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-a023916fd3640a0d6bc88d598c585ac101e7cbcc.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\me.drakeet.materialdialog\library\1.2.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8646b1e69dd5d923d8866dc4311859f0fbca456c">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-f2883ef05e835b9aa07d38c40173bc92cbffba0d.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.github.markushi\circlebutton\1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ebe3b1f14fa79ba3cd1588acda4e6517ee9fe611">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-37e50efef29d0c88896bbb90bd83e3a61d4999c3.jar" />
+    </item>
+    <item
+        jar="C:\Users\sehyunpark\.gradle\caches\modules-2\files-2.1\io.realm\realm-android\0.81.1\9e3c21f13279ee01f5a05553bcb98044d6797c03\realm-android-0.81.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9e3c21f13279ee01f5a05553bcb98044d6797c03">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\realm-android-0.81.1-9e103304aaff8c320ac8ab0214cf441c9fbfc484.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.melnykov\floatingactionbutton\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-12c8852b11118c19281d27e4d14ae416d6072755.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.daimajia.numberprogressbar\library\1.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4196173ec5799ff211761f90874802789c6cc4ac">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-cdeffd193fea07644a398e9c15fcaba9d671b76d.jar" />
+    </item>
+    <item
+        jar="C:\Users\sehyunpark\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\library-2.4.0-42786e00cfbbb4293fca2543185d5e58a8424a4a.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.eftimoff\androidplayer\1.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f56911802af2797dfaa75f9c04f1aa83fd90475a">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-ab63cbd0a516b6b0402d68fbb94cb711a82cd492.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-12f040fed13b7f5a78dd57f9be422d7db2e4dc6c.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.github.jlmd\AnimatedCircleLoadingView\1.1.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="22b8a00c808821e8cbf83d18457b376086cbe640">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-348654668779265d9832a0bcb1ed80e203064bc7.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\libs\android-viewbadger.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f1303b50d535716ca7601c5014357b8435658313">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\android-viewbadger-da518451bee6a7e5b2a5ac7484cd4b7f17b9f8b9.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.github.clans\fab\1.5.5\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aaa2fcc429aaad555dbb17ac914b846ca234a3a5">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-89fa26d1cef14bf49e296d2cc313ac775007016f.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-1866b4e53502b5e29de85c3009f351aabbac7fc4.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.github.paolorotolo\appintro\3.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="88a6346382185deaeb9e3cc7d89717bc67d2fb16">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-c5669a38ec5963d888b7fe328b033678284a9073.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.afollestad.material-dialogs\commons\0.8.4.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9e91cedb1fc574ff743718b6fad8dea0e88b0373">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-ebc96e45a2a55dcc46805ab3c4c3279eb8a5c793.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-b9498c9bcfb1f1f83c98645a33e004af34a0c814.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.afollestad.material-dialogs\core\0.8.4.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f69d5ffbc9a060429c1c8c5c58a3fe35c4bed1e2">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-41bb46408c5b7f8bce02f71b9fb3146339a4d4af.jar" />
+    </item>
+    <item
+        jar="D:\EatingHabits\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\classes-82cc6e8b7a593887a35a8f56ec5e49414bf178b4.jar" />
+    </item>
+    <item
+        jar="C:\Users\sehyunpark\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="D:\EatingHabits\app\build\intermediates\pre-dexed\release\bolts-android-1.1.4-9f944f26d4243942fb9e612feabaf519a7670b7f.jar" />
+    </item>
+
+</items>

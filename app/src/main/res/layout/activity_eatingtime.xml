@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.eatinghabit.sehyunpark.eatinghabits.EatingTimeActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:text="식사 시간"/>
+    <com.eatinghabit.sehyunpark.eatinghabits.extra.NumberProgressBar
+        android:id="@+id/numberbar1"
+        android:layout_width="wrap_content"
+        android:padding="20dp"
+        custom:progress_current="0"
+        style="@style/NumberProgressBar_Default"
+        android:layout_height="wrap_content"
+        custom:progress_text_size="18sp"
+        custom:progress_text_color="#3498DB"
+        custom:progress_text_offset="1dp"
+        custom:progress_text_visibility="visible"
+        custom:progress_unreached_bar_height="3dp"
+        custom:progress_reached_bar_height="4.5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="포만감 향상"/>
+    <com.eatinghabit.sehyunpark.eatinghabits.extra.NumberProgressBar
+        android:id="@+id/numberbar2"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        custom:progress_current="0"
+        android:layout_width="match_parent"
+        style="@style/NumberProgressBar_Passing_Green"
+        custom:progress_text_size="14sp"
+        custom:progress_text_offset="1dp"
+        custom:progress_text_visibility="visible"
+        custom:progress_unreached_bar_height="1.5dp"
+        custom:progress_reached_bar_height="3dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="뇌 활성화"/>
+    <com.eatinghabit.sehyunpark.eatinghabits.extra.NumberProgressBar
+        android:id="@+id/numberbar3"
+        android:layout_margin="20dp"
+        style="@style/NumberProgressBar_Relax_Blue"
+        custom:progress_current="0"
+        android:layout_height="wrap_content"
+        custom:progress_text_size="14sp"
+        custom:progress_text_offset="1dp"
+        custom:progress_text_visibility="visible"
+        custom:progress_unreached_bar_height="1.5dp"
+        custom:progress_reached_bar_height="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="소화촉진"/>
+    <com.eatinghabit.sehyunpark.eatinghabits.extra.NumberProgressBar
+        android:id="@+id/numberbar4"
+        android:layout_width="wrap_content"
+        android:layout_margin="20dp"
+        style="@style/NumberProgressBar_Grace_Yellow"
+        custom:progress_current="0"
+        android:layout_height="wrap_content"
+        custom:progress_text_size="14sp"
+        custom:progress_text_offset="1dp"
+        custom:progress_text_visibility="visible"
+        custom:progress_unreached_bar_height="1.5dp"
+        custom:progress_reached_bar_height="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="기억력 향상"/>
+
+    <com.eatinghabit.sehyunpark.eatinghabits.extra.NumberProgressBar
+        android:id="@+id/numberbar5"
+        android:layout_width="wrap_content"
+        android:layout_margin="20dp"
+        custom:progress_current="0"
+        style="@style/NumberProgressBar_Warning_Red"
+        android:layout_height="wrap_content"
+        custom:progress_text_size="14sp"
+        custom:progress_text_offset="1dp"
+        custom:progress_text_visibility="visible"
+        custom:progress_unreached_bar_height="1.5dp"
+        custom:progress_reached_bar_height="3dp"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:padding="50dp"
+    android:text="시간 : 00 분 00 초"
+    android:textSize="24sp"
+    android:layout_gravity="center"
+    android:id="@+id/tv_time"/>
+
+
+
+
+</LinearLayout>

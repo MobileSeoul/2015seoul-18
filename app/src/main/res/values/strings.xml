@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">밥힘</string>
+
+
+    <string name="finish">ProgressBar is finished.</string>
+</resources>
